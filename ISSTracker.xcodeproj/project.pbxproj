@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10E9EFC5A6B0334869F0DB22 /* TimeFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BA1F2E15E2AD9606352D06 /* TimeFormatter.m */; };
+		179E6A8DC297E1DA1A2D7194 /* LocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5A27D1D6D296542FEC514D /* LocationService.m */; };
+		18186132B1E565476DCCD8F4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB99337669530B98ED60D82 /* Cocoa.framework */; };
+		439F27E6581932563DAE7D65 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F733738AC11899E543EE1E /* MainWindowController.m */; };
+		4B4D6CDF29A0C31A32ED63F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 443C8AA6D5DE6610FE997C89 /* AppDelegate.m */; };
+		62F27290463E2CD69012FA94 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFEDC08648ECD0A1F666199 /* QuartzCore.framework */; };
+		6717D61C6101407081602FC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BD961AE11C01AF9B112C79 /* main.m */; };
+		6E36901B627C604C9CF57B61 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EC4E6847BAA2E21613BDC39 /* CoreLocation.framework */; };
+		73CA38C2620C0AE624F145E0 /* PlaybackBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB23FB5F1A836E8CC2832488 /* PlaybackBarController.m */; };
+		87A24ED525ECCC1B5C2301B2 /* PlaceSearchService.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEF7785C3E51589921C8145 /* PlaceSearchService.m */; };
+		AB7CD8B5554502F97121DECC /* SidePanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E78B3D1C0190C4D70B0340C9 /* SidePanelViewController.m */; };
+		AEEF89F6B4794CC24DAC366B /* TrajectorySearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E92314735C3CB434DDEB2D /* TrajectorySearchResult.m */; };
+		B63134A9EC5A2E92AA1C7599 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4051D44A4122106EEE4A0B33 /* MapKit.framework */; };
+		B8F13B2BE999A5C9C87BF503 /* ISSDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 885B3FF9335B78724279D60A /* ISSDataProvider.m */; };
+		C744DBB75B1D2B373BA641D3 /* Trajectory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E108FD66870E48709F69ED8 /* Trajectory.m */; };
+		CD859B7AB060D46CDA8DC0C7 /* ISSPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A66458D0EA3190E641E16F /* ISSPosition.m */; };
+		FB157A3C4883E01E9AF3C538 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA79FA5D03B45D4A37600EE /* MapViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C5A27D1D6D296542FEC514D /* LocationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationService.m; sourceTree = "<group>"; };
+		236B7C8D4852535FC14A79A6 /* TimeFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeFormatter.h; sourceTree = "<group>"; };
+		26E92314735C3CB434DDEB2D /* TrajectorySearchResult.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrajectorySearchResult.m; sourceTree = "<group>"; };
+		28BEBE0421FEB2E10027A763 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		2EC4E6847BAA2E21613BDC39 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3203DBE3D4949767469B9E03 /* SidePanelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SidePanelViewController.h; sourceTree = "<group>"; };
+		3EC6F16D438DA81D7B6F0C77 /* Trajectory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Trajectory.h; sourceTree = "<group>"; };
+		4051D44A4122106EEE4A0B33 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		443C8AA6D5DE6610FE997C89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4AFEDC08648ECD0A1F666199 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		628B8B9D4756F81EF6D1E752 /* LocationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationService.h; sourceTree = "<group>"; };
+		78F733738AC11899E543EE1E /* MainWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		7AA79FA5D03B45D4A37600EE /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		7BB99337669530B98ED60D82 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7E108FD66870E48709F69ED8 /* Trajectory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Trajectory.m; sourceTree = "<group>"; };
+		885B3FF9335B78724279D60A /* ISSDataProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISSDataProvider.m; sourceTree = "<group>"; };
+		8FBF3DE5F12646D6DA5DE55D /* ISSDataProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISSDataProvider.h; sourceTree = "<group>"; };
+		945AE731F08962650C20B2B4 /* PlaybackBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaybackBarController.h; sourceTree = "<group>"; };
+		96A66458D0EA3190E641E16F /* ISSPosition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISSPosition.m; sourceTree = "<group>"; };
+		A1BD961AE11C01AF9B112C79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B26E20A59870BE1607C17F0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C7BA1F2E15E2AD9606352D06 /* TimeFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeFormatter.m; sourceTree = "<group>"; };
+		C8C2876936155847AAC55E8D /* TrajectorySearchResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrajectorySearchResult.h; sourceTree = "<group>"; };
+		CE819F2E01ED214371B423E9 /* ISSPosition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISSPosition.h; sourceTree = "<group>"; };
+		D062DA4C0AD56251643953B4 /* PlaceSearchService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaceSearchService.h; sourceTree = "<group>"; };
+		DC399476F4984497830D1D63 /* ISSTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ISSTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEEF7785C3E51589921C8145 /* PlaceSearchService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaceSearchService.m; sourceTree = "<group>"; };
+		E1BF7B8990B769C5455A7D4C /* MainWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		E78B3D1C0190C4D70B0340C9 /* SidePanelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SidePanelViewController.m; sourceTree = "<group>"; };
+		EB23FB5F1A836E8CC2832488 /* PlaybackBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaybackBarController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9818A4086B7020145FD2F71A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18186132B1E565476DCCD8F4 /* Cocoa.framework in Frameworks */,
+				B63134A9EC5A2E92AA1C7599 /* MapKit.framework in Frameworks */,
+				6E36901B627C604C9CF57B61 /* CoreLocation.framework in Frameworks */,
+				62F27290463E2CD69012FA94 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48F9FDAE33D51C69664A6546 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC399476F4984497830D1D63 /* ISSTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5661D1CBCF3E7D86C5229A6E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8FBF3DE5F12646D6DA5DE55D /* ISSDataProvider.h */,
+				885B3FF9335B78724279D60A /* ISSDataProvider.m */,
+				628B8B9D4756F81EF6D1E752 /* LocationService.h */,
+				1C5A27D1D6D296542FEC514D /* LocationService.m */,
+				D062DA4C0AD56251643953B4 /* PlaceSearchService.h */,
+				DEEF7785C3E51589921C8145 /* PlaceSearchService.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7E9F5734FD0A46F9918718E7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE819F2E01ED214371B423E9 /* ISSPosition.h */,
+				96A66458D0EA3190E641E16F /* ISSPosition.m */,
+				3EC6F16D438DA81D7B6F0C77 /* Trajectory.h */,
+				7E108FD66870E48709F69ED8 /* Trajectory.m */,
+				C8C2876936155847AAC55E8D /* TrajectorySearchResult.h */,
+				26E92314735C3CB434DDEB2D /* TrajectorySearchResult.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		82595F2E7D976E112A0094F2 = {
+			isa = PBXGroup;
+			children = (
+				E1B7FE1373C62E2CBB8FA66F /* Sources */,
+				A423C78C234CF2A045CEAB96 /* Frameworks */,
+				48F9FDAE33D51C69664A6546 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A423C78C234CF2A045CEAB96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BB99337669530B98ED60D82 /* Cocoa.framework */,
+				2EC4E6847BAA2E21613BDC39 /* CoreLocation.framework */,
+				4051D44A4122106EEE4A0B33 /* MapKit.framework */,
+				4AFEDC08648ECD0A1F666199 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA6DA0110134D3D5626D4611 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				236B7C8D4852535FC14A79A6 /* TimeFormatter.h */,
+				C7BA1F2E15E2AD9606352D06 /* TimeFormatter.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E1B7FE1373C62E2CBB8FA66F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B26E20A59870BE1607C17F0D /* AppDelegate.h */,
+				443C8AA6D5DE6610FE997C89 /* AppDelegate.m */,
+				A1BD961AE11C01AF9B112C79 /* main.m */,
+				E1BF7B8990B769C5455A7D4C /* MainWindowController.h */,
+				78F733738AC11899E543EE1E /* MainWindowController.m */,
+				28BEBE0421FEB2E10027A763 /* MapViewController.h */,
+				7AA79FA5D03B45D4A37600EE /* MapViewController.m */,
+				945AE731F08962650C20B2B4 /* PlaybackBarController.h */,
+				EB23FB5F1A836E8CC2832488 /* PlaybackBarController.m */,
+				3203DBE3D4949767469B9E03 /* SidePanelViewController.h */,
+				E78B3D1C0190C4D70B0340C9 /* SidePanelViewController.m */,
+				BA6DA0110134D3D5626D4611 /* Helpers */,
+				7E9F5734FD0A46F9918718E7 /* Models */,
+				5661D1CBCF3E7D86C5229A6E /* Services */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2A4277888A4955ACE47883C /* ISSTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1C635C334C0D1B634E9D50 /* Build configuration list for PBXNativeTarget "ISSTracker" */;
+			buildPhases = (
+				7E2F7C7557E2841277EEC2D4 /* Sources */,
+				9818A4086B7020145FD2F71A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ISSTracker;
+			packageProductDependencies = (
+			);
+			productName = ISSTracker;
+			productReference = DC399476F4984497830D1D63 /* ISSTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9B6E879E2726080669B8E73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C2A4277888A4955ACE47883C = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E7DBEE79FA4EC3CDDDE449F0 /* Build configuration list for PBXProject "ISSTracker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 82595F2E7D976E112A0094F2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 48F9FDAE33D51C69664A6546 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2A4277888A4955ACE47883C /* ISSTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E2F7C7557E2841277EEC2D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4D6CDF29A0C31A32ED63F1 /* AppDelegate.m in Sources */,
+				B8F13B2BE999A5C9C87BF503 /* ISSDataProvider.m in Sources */,
+				CD859B7AB060D46CDA8DC0C7 /* ISSPosition.m in Sources */,
+				179E6A8DC297E1DA1A2D7194 /* LocationService.m in Sources */,
+				439F27E6581932563DAE7D65 /* MainWindowController.m in Sources */,
+				FB157A3C4883E01E9AF3C538 /* MapViewController.m in Sources */,
+				87A24ED525ECCC1B5C2301B2 /* PlaceSearchService.m in Sources */,
+				73CA38C2620C0AE624F145E0 /* PlaybackBarController.m in Sources */,
+				AB7CD8B5554502F97121DECC /* SidePanelViewController.m in Sources */,
+				10E9EFC5A6B0334869F0DB22 /* TimeFormatter.m in Sources */,
+				C744DBB75B1D2B373BA641D3 /* Trajectory.m in Sources */,
+				AEEF89F6B4794CC24DAC366B /* TrajectorySearchResult.m in Sources */,
+				6717D61C6101407081602FC7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0BA61789E95176F5DC747560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4A2763D709F7DEB74D36D3A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sid.ISSTracker;
+				PRODUCT_NAME = ISSTracker;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		70EC8564EDFF0A88F04E46BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sid.ISSTracker;
+				PRODUCT_NAME = ISSTracker;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		98AC8EB602F5FF44935370DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F1C635C334C0D1B634E9D50 /* Build configuration list for PBXNativeTarget "ISSTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A2763D709F7DEB74D36D3A7 /* Debug */,
+				70EC8564EDFF0A88F04E46BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E7DBEE79FA4EC3CDDDE449F0 /* Build configuration list for PBXProject "ISSTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98AC8EB602F5FF44935370DD /* Debug */,
+				0BA61789E95176F5DC747560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9B6E879E2726080669B8E73 /* Project object */;
+}

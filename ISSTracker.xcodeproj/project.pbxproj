@@ -23,6 +23,7 @@
 		B8F13B2BE999A5C9C87BF503 /* ISSDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 885B3FF9335B78724279D60A /* ISSDataProvider.m */; };
 		C744DBB75B1D2B373BA641D3 /* Trajectory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E108FD66870E48709F69ED8 /* Trajectory.m */; };
 		CD859B7AB060D46CDA8DC0C7 /* ISSPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A66458D0EA3190E641E16F /* ISSPosition.m */; };
+		D71DDD307FE694A0DA37CCF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 953FB787E9249909999767E5 /* Assets.xcassets */; };
 		FB157A3C4883E01E9AF3C538 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA79FA5D03B45D4A37600EE /* MapViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		885B3FF9335B78724279D60A /* ISSDataProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISSDataProvider.m; sourceTree = "<group>"; };
 		8FBF3DE5F12646D6DA5DE55D /* ISSDataProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISSDataProvider.h; sourceTree = "<group>"; };
 		945AE731F08962650C20B2B4 /* PlaybackBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaybackBarController.h; sourceTree = "<group>"; };
+		953FB787E9249909999767E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96A66458D0EA3190E641E16F /* ISSPosition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISSPosition.m; sourceTree = "<group>"; };
 		A1BD961AE11C01AF9B112C79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B26E20A59870BE1607C17F0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -74,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D1DE18EECCE8F0654D47309 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				953FB787E9249909999767E5 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		48F9FDAE33D51C69664A6546 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +121,7 @@
 		82595F2E7D976E112A0094F2 = {
 			isa = PBXGroup;
 			children = (
+				0D1DE18EECCE8F0654D47309 /* Resources */,
 				E1B7FE1373C62E2CBB8FA66F /* Sources */,
 				A423C78C234CF2A045CEAB96 /* Frameworks */,
 				48F9FDAE33D51C69664A6546 /* Products */,
@@ -166,6 +177,7 @@
 			buildConfigurationList = 3F1C635C334C0D1B634E9D50 /* Build configuration list for PBXNativeTarget "ISSTracker" */;
 			buildPhases = (
 				7E2F7C7557E2841277EEC2D4 /* Sources */,
+				4B721CD2811B845F1AAF75B6 /* Resources */,
 				9818A4086B7020145FD2F71A /* Frameworks */,
 			);
 			buildRules = (
@@ -186,7 +198,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 2710;
 				TargetAttributes = {
 					C2A4277888A4955ACE47883C = {
 						ProvisioningStyle = Automatic;
@@ -211,6 +223,17 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B721CD2811B845F1AAF75B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D71DDD307FE694A0DA37CCF5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7E2F7C7557E2841277EEC2D4 /* Sources */ = {
@@ -270,9 +293,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -286,6 +311,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
@@ -299,6 +325,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_HARDENED_RUNTIME = NO;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Resources/Info.plist;
@@ -306,6 +333,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sid.ISSTracker;
 				PRODUCT_NAME = ISSTracker;
 				SDKROOT = macosx;
@@ -319,6 +347,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_HARDENED_RUNTIME = NO;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Resources/Info.plist;
@@ -326,6 +355,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sid.ISSTracker;
 				PRODUCT_NAME = ISSTracker;
 				SDKROOT = macosx;
@@ -366,9 +396,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -389,6 +421,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;

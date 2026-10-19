@@ -1,0 +1,45 @@
+name: ISSTracker
+options:
+  bundleIdPrefix: com.sid
+  deploymentTarget:
+    macOS: "12.0"
+  createIntermediateGroups: true
+
+settings:
+  base:
+    CLANG_ENABLE_OBJC_ARC: YES
+    CLANG_ENABLE_MODULES: YES
+    MACOSX_DEPLOYMENT_TARGET: "12.0"
+
+targets:
+  ISSTracker:
+    type: application
+    platform: macOS
+    sources:
+      - path: Sources
+    dependencies:
+      - sdk: Cocoa.framework
+      - sdk: MapKit.framework
+      - sdk: CoreLocation.framework
+      - sdk: QuartzCore.framework
+    info:
+      path: Resources/Info.plist
+      properties:
+        CFBundleDisplayName: ISS Tracker
+        CFBundleShortVersionString: "1.0"
+        CFBundleVersion: "1"
+        LSApplicationCategoryType: public.app-category.utilities
+        NSPrincipalClass: NSApplication
+        NSHighResolutionCapable: true
+        NSHumanReadableCopyright: "© 2026"
+        NSLocationUsageDescription: ISS Tracker uses your location to center the map and find ISS passes overhead.
+        NSLocationWhenInUseUsageDescription: ISS Tracker uses your location to center the map and find ISS passes overhead.
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.sid.ISSTracker
+        PRODUCT_NAME: ISSTracker
+        GENERATE_INFOPLIST_FILE: NO
+        ENABLE_HARDENED_RUNTIME: NO
+        CODE_SIGN_STYLE: Automatic
+        CODE_SIGN_IDENTITY: "-"
+        COMBINE_HIDPI_IMAGES: YES

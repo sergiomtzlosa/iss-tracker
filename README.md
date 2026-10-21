@@ -2,6 +2,8 @@
 
 A native macOS application that tracks the International Space Station (NORAD 25544) in real-time on a MapKit map, animates its ground track, and searches for passes over any location at a given date and time.
 
+![ISS tracker preview](screenshot.png)
+
 ## Features
 
 - **Live Tracking**: Real-time ISS position with automatic updates every 15 seconds
